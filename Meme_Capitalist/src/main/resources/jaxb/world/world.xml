@@ -48,6 +48,15 @@ and open the template in the editor.
                     <typeratio>VITESSE</typeratio>
                     <unlocked>0</unlocked>
                  </pallier>
+                 <pallier>
+                    <name>Happy Pepe 100</name>
+                    <logo></logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
             </palliers>
         </product>
         <product>
@@ -66,6 +75,24 @@ and open the template in the editor.
                     <name>Agent Pepe 25</name>
                     <logo></logo>
                     <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Agent Pepe 50</name>
+                    <logo></logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Agent Pepe 100</name>
+                    <logo></logo>
+                    <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
                     <typeratio>VITESSE</typeratio>
@@ -127,12 +154,57 @@ and open the template in the editor.
                     <typeratio>GAIN</typeratio>
                     <unlocked>0</unlocked>
                  </pallier>
+                 <pallier>
+                    <name>See ya later</name>
+                    <logo></logo>
+                    <seuil>30000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Feelsgoodman</name>
+                    <logo></logo>
+                    <seuil>5000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Mr.Anderson</name>
+                    <logo></logo>
+                    <seuil>10000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1.999</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
     </upgrades>
     <angelupgrades>
                  <pallier>
                     <name>He died for our sins</name>
                     <logo>Haramngel</logo>
                     <seuil>2016</seuil>
+                    <idcible>-1</idcible>
+                    <ratio>1.997</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Take a shot for him...</name>
+                    <logo>Haramngel</logo>
+                    <seuil>5000</seuil>
+                    <idcible>-1</idcible>
+                    <ratio>1.997</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>...He took one for you</name>
+                    <logo>Haramngel</logo>
+                    <seuil>10000</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
                     <typeratio>GAIN</typeratio>
