@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
+    <name>Feeladelphia</name>
+    <logo>image feeladelphia</logo>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>2</angelbonus>
+    <lastupdate></lastupdate>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Happy Pepe</name>
+            <logo>img happy pepe</logo>
+            <cout>3</cout>
+            <croissance>1.07</croissance>
+            <revenu>1</revenu>
+            <vitesse></vitesse>
+            <quantite>0.6</quantite>
+            <timeleft>0.6</timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Happy Pepe 25</name>
+                    <logo></logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Happy Pepe 50</name>
+                    <logo></logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Agent Pepe</name>
+            <logo></logo>
+            <cout>60</cout>
+            <croissance>4.15</croissance>
+            <revenu>60</revenu>
+            <vitesse>3</vitesse>
+            <quantite>0</quantite>
+            <timeleft>3</timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                 <pallier>
+                    <name>Agent Pepe 25</name>
+                    <logo></logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id></id>
+            <name></name>
+            <logo></logo>
+            <cout></cout>
+            <croissance></croissance>
+            <revenu></revenu>
+            <vitesse></vitesse>
+            <quantite></quantite>
+            <timeleft></timeleft>
+            <managerUnlocked></managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        <pallier>
+            <name>All unlock 1</name>
+            <logo></logo>
+            <seuil>1</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
+            <typeratio>GAIN</typeratio>
+            <unlocked>0</unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+        <pallier>
+            <name></name>
+            <logo></logo>
+            <seuil></seuil>
+            <idcible></idcible>
+            <ratio></ratio>
+            <typeratio></typeratio>
+            <unlocked></unlocked>
+        </pallier>
+    </allunlocks>
+    <upgrades>
+                 <pallier>
+                    <name>Came here to chill, not to feel</name>
+                    <logo></logo>
+                    <seuil>1000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+    </upgrades>
+    <angelupgrades>
+                 <pallier>
+                    <name>He died for our sins</name>
+                    <logo>Haramngel</logo>
+                    <seuil>2016</seuil>
+                    <idcible>-1</idcible>
+                    <ratio>1.997</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+    </angelupgrades>
+    <managers>
+                 <pallier>
+                    <name>Doge</name>
+                    <logo></logo>
+                    <seuil>1000</seuil>
+                    <idcible>1</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Dat boi</name>
+                    <logo></logo>
+                    <seuil>15000</seuil>
+                    <idcible>2</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+    </managers>
+
+</world>

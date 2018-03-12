@@ -11,7 +11,7 @@
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
-        <project.build.sourceEncoding>ISO-8859-9</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
     <dependencies>
@@ -85,6 +85,54 @@
                             <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-worldSchema.episode</episodeFile>
                         </configuration>
                         <id>jaxb-generate-worldSchema</id>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/world/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-world.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-world</id>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/world/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-world.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-world_1</id>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/world/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-world.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-world_2</id>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>jaxb/world/*.xsd</include>
+                            </schemaIncludes>
+                            <episodeFile>${project.build.directory}/generated-sources/xjc/META-INF/jaxb-world.episode</episodeFile>
+                        </configuration>
+                        <id>jaxb-generate-world_3</id>
                     </execution>
                 </executions>
                 <configuration>

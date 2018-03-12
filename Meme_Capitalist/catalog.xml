@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="file:/C:/Users/Risitas/Meme_Capitalist/Meme_Capitalist/schema%20xml%20world.txt" uri="src/main/resources/jaxb/worldSchema/schema%20xml%20world.txt"/>
+    <system systemId="file:/C:/Users/Risitas/Meme_Capitalist/Meme_Capitalist/schema%20xml%20world.txt" uri="src/main/resources/jaxb/world/schema%20xml%20world.txt"/>
+    <system systemId="file:/C:/Users/Risitas/Meme_Capitalist/Meme_Capitalist/schema%20xml%20world.xsd" uri="src/main/resources/jaxb/world/schema%20xml%20world.xsd"/>
+    <system systemId="file:/C:/Users/Risitas/Meme_Capitalist/Meme_Capitalist/worldSchema.xsd" uri="src/main/resources/jaxb/world/worldSchema.xsd"/>
 </catalog>
