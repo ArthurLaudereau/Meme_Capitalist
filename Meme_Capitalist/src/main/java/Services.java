@@ -3,8 +3,12 @@ import generated.World;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream;
 import java.io.OutputStream;
+import javax.xml.bind.JAXB;
+import static javax.xml.bind.JAXB.unmarshal;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -20,15 +24,14 @@ import javax.xml.bind.Unmarshaller;
  * @author Risitas
  */
 public class Services {
-    private JAXBContext jaxbContext;
     
-    World readWorldFromXml() throws JAXBException{
-        Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
+    Object readWorldFromXml() throws JAXBException, IOException, ClassNotFoundException{
         InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
-        return unmarshaller.unmarshal(input, World.class);
-        ///ALED CA MARCHE PAS COMMENT ON MARSHALL DEJA ?
+        ObjectInputStream ois = new ObjectInputStream(input);
+        Object world = ois.readObject();
+        return world;
     };
     void saveWordlToXml(World world) throws FileNotFoundException{
-    OutputStream output = new FileOutputStream("worldSave.xml");
+    OutputStream output = new FileOutputStream("world.xml");
     }
 }
