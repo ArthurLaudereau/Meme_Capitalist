@@ -11,6 +11,8 @@ import javax.xml.bind.JAXB;
 import static javax.xml.bind.JAXB.unmarshal;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.UnmarshalException;
 import javax.xml.bind.Unmarshaller;
 
 /*
@@ -25,13 +27,28 @@ import javax.xml.bind.Unmarshaller;
  */
 public class Services {
     
-    Object readWorldFromXml() throws JAXBException, IOException, ClassNotFoundException{
-        InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
-        ObjectInputStream ois = new ObjectInputStream(input);
-        Object world = ois.readObject();
+    World readWorldFromXml() throws JAXBException{
+        JAXBContext cont = JAXBContext.newInstance(World.class);
+        Unmarshaller m = cont.createUnmarshaller();
+        World world;
+        try{
+            world = (World) m.unmarshal(new File("world.xml"));
+           }
+       catch (UnmarshalException e){
+            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+            world = (World) m.unmarshal(input);
+            }
         return world;
     };
-    void saveWordlToXml(World world) throws FileNotFoundException{
-    OutputStream output = new FileOutputStream("world.xml");
+    void saveWordlToXml(World world) throws FileNotFoundException, JAXBException{
+    JAXBContext cont = JAXBContext.newInstance(World.class);
+    Marshaller m = cont.createMarshaller();
+    OutputStream os = new FileOutputStream("world.xml");
+    m.marshal(world, os);
+    }
+    
+    public World getWorld() throws JAXBException{
+    World world = readWorldFromXml();
+    return world;
     }
 }
