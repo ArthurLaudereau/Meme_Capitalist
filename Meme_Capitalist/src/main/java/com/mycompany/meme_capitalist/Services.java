@@ -1,3 +1,4 @@
+package com.mycompany.meme_capitalist;
 
 import generated.World;
 import java.io.File;
@@ -20,35 +21,36 @@ import javax.xml.bind.Unmarshaller;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Risitas
  */
 public class Services {
-    
-    World readWorldFromXml() throws JAXBException{
+
+    private World readWorldFromXml() throws JAXBException {
         JAXBContext cont = JAXBContext.newInstance(World.class);
         Unmarshaller m = cont.createUnmarshaller();
         World world;
-        try{
+        try {
             world = (World) m.unmarshal(new File("world.xml"));
-           }
-       catch (UnmarshalException e){
+        } catch (UnmarshalException e) {
             InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             world = (World) m.unmarshal(input);
-            }
+        }
         return world;
-    };
-    void saveWordlToXml(World world) throws FileNotFoundException, JAXBException{
-    JAXBContext cont = JAXBContext.newInstance(World.class);
-    Marshaller m = cont.createMarshaller();
-    OutputStream os = new FileOutputStream("world.xml");
-    m.marshal(world, os);
     }
+
+    ;
     
-    public World getWorld() throws JAXBException{
-    World world = readWorldFromXml();
-    return world;
+    private void saveWordlToXml(World world) throws FileNotFoundException, JAXBException {
+        JAXBContext cont = JAXBContext.newInstance(World.class);
+        Marshaller m = cont.createMarshaller();
+        OutputStream os = new FileOutputStream("world.xml");
+        m.marshal(world, os);
+    }
+
+    public World getWorld() throws JAXBException {
+        World world = readWorldFromXml();
+        return world;
     }
 }
