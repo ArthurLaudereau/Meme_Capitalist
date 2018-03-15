@@ -5,6 +5,7 @@
  */
 package com.mycompany.meme_capitalist;
 
+import com.google.gson.Gson;
 import generated.World;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -57,6 +58,23 @@ public class GenericResource {
             Logger.getLogger(GenericResource.class.getName()).log(Level.SEVERE, null, e);
         }
         return Response.status(Response.Status.NOT_FOUND).build();
+    }
+    
+    @GET
+    @Path("world")
+    @Produces("application/json")
+    public World getGson() {
+        World w;
+        try {
+            w = s.getWorld();
+            //new Gson().toJson(w); pas besoin ça se fait automatiquement !
+            //return Response.ok(w).build();
+            return w;
+        } catch (JAXBException e) {
+            Logger.getLogger(GenericResource.class.getName()).log(Level.SEVERE, null, e);
+        }
+        //return Response.status(Response.Status.NOT_FOUND).build();
+        return null;
     }
 
 }
