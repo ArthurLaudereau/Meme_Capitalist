@@ -10,7 +10,7 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
     <name>Feeladelphia</name>
-    <logo>image feeladelphia</logo>
+    <logo>icones/logo.jpg</logo>
     <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
@@ -21,7 +21,7 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>Happy Pepe</name>
-            <logo>img happy pepe</logo>
+            <logo>icones/pepe/happy_pepe.png</logo>
             <cout>3</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>Happy Pepe 25</name>
-                    <logo></logo>
+                    <logo>icones/happy_pepe.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -41,7 +41,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Happy Pepe 50</name>
-                    <logo></logo>
+                    <logo>icones/pepe/happy_pepe.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -50,7 +50,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Happy Pepe 100</name>
-                    <logo></logo>
+                    <logo>icones/pepe/happy_pepe.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -62,7 +62,7 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>Agent Pepe</name>
-            <logo></logo>
+            <logo>icones/pepe/agent_pepe.jpg</logo>
             <cout>60</cout>
             <croissance>4.15</croissance>
             <revenu>60</revenu>
@@ -73,7 +73,7 @@ and open the template in the editor.
             <palliers>
                  <pallier>
                     <name>Agent Pepe 25</name>
-                    <logo></logo>
+                    <logo>icones/pepe/agent_pepe.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -82,7 +82,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 50</name>
-                    <logo></logo>
+                    <logo>icones/pepe/agent_pepe.jpg</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -91,7 +91,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 100</name>
-                    <logo></logo>
+                    <logo>icones/pepe/agent_pepe.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -147,7 +147,7 @@ and open the template in the editor.
     <upgrades>
                  <pallier>
                     <name>Came here to chill, not to feel</name>
-                    <logo></logo>
+                    <logo>icones/pepe/happy_pepe.png</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -156,7 +156,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>See ya later</name>
-                    <logo></logo>
+                    <logo>icones/pepe/agent_pepe.jpg</logo>
                     <seuil>30000</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -165,7 +165,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Feelsgoodman</name>
-                    <logo></logo>
+                    <logo>icones/pepe/happy_pepe.png</logo>
                     <seuil>5000</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -174,7 +174,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Mr.Anderson</name>
-                    <logo></logo>
+                    <logo>icones/pepe/agent_pepe.jpg</logo>
                     <seuil>10000</seuil>
                     <idcible>1</idcible>
                     <ratio>1.999</ratio>
@@ -185,7 +185,7 @@ and open the template in the editor.
     <angelupgrades>
                  <pallier>
                     <name>He died for our sins</name>
-                    <logo>Haramngel</logo>
+                    <logo>icones/Harambe_angel.jpg</logo>
                     <seuil>2016</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
@@ -194,7 +194,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Take a shot for him...</name>
-                    <logo>Haramngel</logo>
+                    <logo>icones/Harambe_angel.jpg</logo>
                     <seuil>5000</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
@@ -203,7 +203,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>...He took one for you</name>
-                    <logo>Haramngel</logo>
+                    <logo>icones/Harambe_angel.jpg</logo>
                     <seuil>10000</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
@@ -214,7 +214,7 @@ and open the template in the editor.
     <managers>
                  <pallier>
                     <name>Doge</name>
-                    <logo></logo>
+                    <logo>icones/manager/Doge.jpg</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio></ratio>
@@ -223,7 +223,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Dat boi</name>
-                    <logo></logo>
+                    <logo>icones/manager/dat_boi.jpg</logo>
                     <seuil>15000</seuil>
                     <idcible>2</idcible>
                     <ratio></ratio>
