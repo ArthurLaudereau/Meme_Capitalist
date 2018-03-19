@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>Happy Pepe 25</name>
-                    <logo>icones/happy_pepe.png</logo>
+                    <logo>icones/pepe/happy_pepe.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
