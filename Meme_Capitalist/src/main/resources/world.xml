@@ -25,9 +25,9 @@ and open the template in the editor.
             <cout>3</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
-            <vitesse></vitesse>
-            <quantite>0.6</quantite>
-            <timeleft>0.6</timeleft>
+            <vitesse>0.6</vitesse>
+            <quantite>1</quantite>
+            <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
             <palliers>
                 <pallier>
@@ -62,18 +62,18 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>Agent Pepe</name>
-            <logo>icones/pepe/agent_pepe.jpg</logo>
+            <logo>icones/pepe/agent_pepe.png</logo>
             <cout>60</cout>
-            <croissance>4.15</croissance>
+            <croissance>1.15</croissance>
             <revenu>60</revenu>
             <vitesse>3</vitesse>
             <quantite>0</quantite>
-            <timeleft>3</timeleft>
+            <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Agent Pepe 25</name>
-                    <logo>icones/pepe/agent_pepe.jpg</logo>
+                    <logo>icones/pepe/agent_pepe.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -82,7 +82,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 50</name>
-                    <logo>icones/pepe/agent_pepe.jpg</logo>
+                    <logo>icones/pepe/agent_pepe.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -91,7 +91,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 100</name>
-                    <logo>icones/pepe/agent_pepe.jpg</logo>
+                    <logo>icones/pepe/agent_pepe.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -101,17 +101,167 @@ and open the template in the editor.
             </palliers>
         </product>
         <product>
-            <id></id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
+            <id>3</id>
+            <name>Gold Pepe</name>
+            <logo>icones/pepe/gold_pepe.png</logo>
+            <cout>720</cout>
+            <croissance>1.14</croissance>
+            <revenu>540</revenu>
+            <vitesse>6</vitesse>
+            <quantite>0</quantite>
             <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <managerUnlocked>0</managerUnlocked>
             <palliers>
+                 <pallier>
+                    <name>Gold Pepe 25</name>
+                    <logo>icones/pepe/gold_pepe.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Gold Pepe 50</name>
+                    <logo>icones/pepe/gold_pepe.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Gold Pepe 100</name>
+                    <logo>icones/pepe/gold_pepe.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Diamond Pepe</name>
+            <logo>icones/pepe/diamond_pepe.png</logo>
+            <cout>8640</cout>
+            <croissance>1.13</croissance>
+            <revenu>4320</revenu>
+            <vitesse>12</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                 <pallier>
+                    <name>Diamond Pepe 25</name>
+                    <logo>icones/pepe/diamond_pepe.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Diamond Pepe 50</name>
+                    <logo>icones/pepe/diamond_pepe.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Diamond Pepe 100</name>
+                    <logo>icones/pepe/diamond_pepe.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>4</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Tritium Pepe</name>
+            <logo>icones/pepe/Tritium_pepe.png</logo>
+            <cout>8640</cout>
+            <croissance>1.12</croissance>
+            <revenu>51840</revenu>
+            <vitesse>24</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                 <pallier>
+                    <name>Tritium Pepe 25</name>
+                    <logo>icones/pepe/Tritium_pepe.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Tritium Pepe 50</name>
+                    <logo>icones/pepe/Tritium_pepe.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Tritium Pepe 100</name>
+                    <logo>icones/pepe/Tritium_pepe.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>6</id>
+            <name>Antimatter Pepe</name>
+            <logo>icones/pepe/antimatter_pepe.png</logo>
+            <cout>1244160</cout>
+            <croissance>1.11</croissance>
+            <revenu>622080</revenu>
+            <vitesse>96</vitesse>
+            <quantite>0</quantite>
+            <timeleft></timeleft>
+            <managerUnlocked>0</managerUnlocked>
+            <palliers>
+                 <pallier>
+                    <name>Antimatter Pepe 25</name>
+                    <logo>icones/pepe/antimatter_pepe.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Antimatter Pepe 50</name>
+                    <logo>icones/pepe/antimatter_pepe.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Antimatter Pepe 100</name>
+                    <logo>icones/pepe/antimatter_pepe.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
             </palliers>
         </product>
     </products>
@@ -148,16 +298,7 @@ and open the template in the editor.
                  <pallier>
                     <name>Came here to chill, not to feel</name>
                     <logo>icones/pepe/happy_pepe.png</logo>
-                    <seuil>1000</seuil>
-                    <idcible>1</idcible>
-                    <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
-                 </pallier>
-                 <pallier>
-                    <name>See ya later</name>
-                    <logo>icones/pepe/agent_pepe.jpg</logo>
-                    <seuil>30000</seuil>
+                    <seuil>500</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
                     <typeratio>GAIN</typeratio>
@@ -166,18 +307,45 @@ and open the template in the editor.
                  <pallier>
                     <name>Feelsgoodman</name>
                     <logo>icones/pepe/happy_pepe.png</logo>
-                    <seuil>5000</seuil>
+                    <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
                     <typeratio>GAIN</typeratio>
                     <unlocked>0</unlocked>
                  </pallier>
                  <pallier>
-                    <name>Mr.Anderson</name>
-                    <logo>icones/pepe/agent_pepe.jpg</logo>
+                    <name>See ya later</name>
+                    <logo>icones/pepe/agent_pepe.png</logo>
                     <seuil>10000</seuil>
-                    <idcible>1</idcible>
-                    <ratio>1.999</ratio>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Mr.Anderson</name>
+                    <logo>icones/pepe/agent_pepe.png</logo>
+                    <seuil>3000</seuil>
+                    <idcible>2</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Gold digger</name>
+                    <logo>icones/pepe/gold_pepe.png</logo>
+                    <seuil>5000</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>GAIN</typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Old but gold</name>
+                    <logo>icones/pepe/gold_pepe.png</logo>
+                    <seuil>9000</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
                     <typeratio>GAIN</typeratio>
                     <unlocked>0</unlocked>
                  </pallier>
@@ -226,6 +394,42 @@ and open the template in the editor.
                     <logo>icones/manager/dat_boi.jpg</logo>
                     <seuil>15000</seuil>
                     <idcible>2</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Risitas</name>
+                    <logo>icones/manager/risitas.png</logo>
+                    <seuil>100000</seuil>
+                    <idcible>3</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Knuckles</name>
+                    <logo>icones/manager/douknowdawae.jpg</logo>
+                    <seuil>500000</seuil>
+                    <idcible>4</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Wednesday Frog</name>
+                    <logo>icones/manager/frog_wed.jpg</logo>
+                    <seuil>1200000</seuil>
+                    <idcible>5</idcible>
+                    <ratio></ratio>
+                    <typeratio></typeratio>
+                    <unlocked>0</unlocked>
+                 </pallier>
+                 <pallier>
+                    <name>Dark Kermit</name>
+                    <logo>icones/manager/dark_kermit.jpg</logo>
+                    <seuil>10000000</seuil>
+                    <idcible>6</idcible>
                     <ratio></ratio>
                     <typeratio></typeratio>
                     <unlocked>0</unlocked>
