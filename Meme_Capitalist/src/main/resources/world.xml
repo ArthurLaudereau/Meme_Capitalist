@@ -23,9 +23,9 @@ and open the template in the editor.
             <name>Happy Pepe</name>
             <logo>icones/pepe/happy_pepe.png</logo>
             <cout>3</cout>
-            <croissance>1.07</croissance>
+            <croissance>1,07</croissance>
             <revenu>1</revenu>
-            <vitesse>0.6</vitesse>
+            <vitesse>600</vitesse>
             <quantite>1</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -64,9 +64,9 @@ and open the template in the editor.
             <name>Agent Pepe</name>
             <logo>icones/pepe/agent_pepe.png</logo>
             <cout>60</cout>
-            <croissance>1.15</croissance>
+            <croissance>1,15</croissance>
             <revenu>60</revenu>
-            <vitesse>3</vitesse>
+            <vitesse>3000</vitesse>
             <quantite>0</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -105,9 +105,9 @@ and open the template in the editor.
             <name>Gold Pepe</name>
             <logo>icones/pepe/gold_pepe.png</logo>
             <cout>720</cout>
-            <croissance>1.14</croissance>
+            <croissance>1,14</croissance>
             <revenu>540</revenu>
-            <vitesse>6</vitesse>
+            <vitesse>6000</vitesse>
             <quantite>0</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -146,9 +146,9 @@ and open the template in the editor.
             <name>Diamond Pepe</name>
             <logo>icones/pepe/diamond_pepe.png</logo>
             <cout>8640</cout>
-            <croissance>1.13</croissance>
+            <croissance>1,13</croissance>
             <revenu>4320</revenu>
-            <vitesse>12</vitesse>
+            <vitesse>12000</vitesse>
             <quantite>0</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -187,9 +187,9 @@ and open the template in the editor.
             <name>Tritium Pepe</name>
             <logo>icones/pepe/Tritium_pepe.png</logo>
             <cout>8640</cout>
-            <croissance>1.12</croissance>
+            <croissance>1,12</croissance>
             <revenu>51840</revenu>
-            <vitesse>24</vitesse>
+            <vitesse>24000</vitesse>
             <quantite>0</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -228,9 +228,9 @@ and open the template in the editor.
             <name>Antimatter Pepe</name>
             <logo>icones/pepe/antimatter_pepe.png</logo>
             <cout>1244160</cout>
-            <croissance>1.11</croissance>
+            <croissance>1,11</croissance>
             <revenu>622080</revenu>
-            <vitesse>96</vitesse>
+            <vitesse>96000</vitesse>
             <quantite>0</quantite>
             <timeleft></timeleft>
             <managerUnlocked>0</managerUnlocked>
@@ -276,21 +276,21 @@ and open the template in the editor.
             <unlocked>0</unlocked>
         </pallier>
         <pallier>
-            <name></name>
+            <name>All unlock 3</name>
             <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
+            <seuil>3</seuil>
+            <idcible>0</idcible>
+            <ratio>3</ratio>
             <typeratio></typeratio>
-            <unlocked></unlocked>
+            <unlocked>GAIN</unlocked>
         </pallier>
         <pallier>
-            <name></name>
+            <name>All unlock 10</name>
             <logo></logo>
-            <seuil></seuil>
-            <idcible></idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
+            <seuil>10</seuil>
+            <idcible>0</idcible>
+            <ratio>5</ratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked></unlocked>
         </pallier>
     </allunlocks>
