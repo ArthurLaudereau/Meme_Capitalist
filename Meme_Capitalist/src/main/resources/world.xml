@@ -382,7 +382,7 @@ and open the template in the editor.
     <managers>
                  <pallier>
                     <name>Doge</name>
-                    <logo>icones/manager/Doge.jpg</logo>
+                    <logo>icones/manager/doge.jpg</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio></ratio>
@@ -400,7 +400,7 @@ and open the template in the editor.
                  </pallier>
                  <pallier>
                     <name>Risitas</name>
-                    <logo>icones/manager/risitas.png</logo>
+                    <logo>icones/manager/risitas.jpg</logo>
                     <seuil>100000</seuil>
                     <idcible>3</idcible>
                     <ratio></ratio>
