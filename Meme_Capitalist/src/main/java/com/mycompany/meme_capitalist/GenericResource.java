@@ -6,12 +6,13 @@
 package com.mycompany.meme_capitalist;
 
 import com.google.gson.Gson;
+import javax.servlet.http.HttpServletRequest;
 import generated.PallierType;
 import generated.ProductType;
 import generated.World;
+import java.io.FileNotFoundException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.PathParam;
@@ -51,32 +52,21 @@ public class GenericResource {
     @GET
     @Path("world")
     @Produces("application/xml")
-    public Response getXml() {
-        World w;
-        try {
-            w = s.getWorld();
-            return Response.ok(w).build();
-        } catch (JAXBException e) {
-            Logger.getLogger(GenericResource.class.getName()).log(Level.SEVERE, null, e);
-        }
-        return Response.status(Response.Status.NOT_FOUND).build();
+   public World getXml(@Context HttpServletRequest request) throws FileNotFoundException, JAXBException {
+        String username = request.getHeader("X-User");
+        return s.getWorld(username);
     }
     
     @GET
     @Path("world")
     @Produces("application/json")
-    public World getGson() {
+    public World getGson(@Context HttpServletRequest request) throws JAXBException {
         World w;
-        try {
-            w = s.getWorld();
-            //new Gson().toJson(w); pas besoin ça se fait automatiquement !
-            //return Response.ok(w).build();
-            return w;
-        } catch (JAXBException e) {
-            Logger.getLogger(GenericResource.class.getName()).log(Level.SEVERE, null, e);
-        }
-        //return Response.status(Response.Status.NOT_FOUND).build();
-        return null;
+        String username = request.getHeader("X-User");;
+        w = s.getWorld(username);
+        //new Gson().toJson(w); pas besoin ça se fait automatiquement !
+        //return Response.ok(w).build();
+        return w;
     }
 
 }
