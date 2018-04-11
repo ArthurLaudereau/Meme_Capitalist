@@ -10,13 +10,13 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
     <name>Feeladelphia</name>
-    <logo>icones/logo.jpg</logo>
-    <money>0</money>
+    <logo>icones/logo.png</logo>
+    <money>1000</money>
     <score>0</score>
     <totalangels>0</totalangels>
     <activeangels>0</activeangels>
     <angelbonus>2</angelbonus>
-    <lastupdate></lastupdate>
+    <lastupdate>0</lastupdate>
     <products>
         <product>
             <id>1</id>
@@ -27,8 +27,8 @@ and open the template in the editor.
             <revenu>1</revenu>
             <vitesse>600</vitesse>
             <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>Happy Pepe 25</name>
@@ -36,8 +36,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Happy Pepe 50</name>
@@ -45,8 +45,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Happy Pepe 100</name>
@@ -54,8 +54,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -67,9 +67,9 @@ and open the template in the editor.
             <croissance>1.15</croissance>
             <revenu>60</revenu>
             <vitesse>3000</vitesse>
-            <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Agent Pepe 25</name>
@@ -77,8 +77,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 50</name>
@@ -86,8 +86,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Agent Pepe 100</name>
@@ -95,8 +95,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -108,9 +108,9 @@ and open the template in the editor.
             <croissance>1.14</croissance>
             <revenu>540</revenu>
             <vitesse>6000</vitesse>
-            <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Gold Pepe 25</name>
@@ -118,8 +118,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Gold Pepe 50</name>
@@ -127,8 +127,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Gold Pepe 100</name>
@@ -136,8 +136,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -149,9 +149,9 @@ and open the template in the editor.
             <croissance>1.13</croissance>
             <revenu>4320</revenu>
             <vitesse>12000</vitesse>
-            <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Diamond Pepe 25</name>
@@ -159,8 +159,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Diamond Pepe 50</name>
@@ -168,8 +168,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Diamond Pepe 100</name>
@@ -177,8 +177,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>4</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -190,9 +190,9 @@ and open the template in the editor.
             <croissance>1.12</croissance>
             <revenu>51840</revenu>
             <vitesse>24000</vitesse>
-            <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Tritium Pepe 25</name>
@@ -200,8 +200,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Tritium Pepe 50</name>
@@ -209,8 +209,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Tritium Pepe 100</name>
@@ -218,8 +218,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -231,9 +231,9 @@ and open the template in the editor.
             <croissance>1.11</croissance>
             <revenu>622080</revenu>
             <vitesse>96000</vitesse>
-            <quantite>1</quantite>
-            <timeleft></timeleft>
-            <managerUnlocked>0</managerUnlocked>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                  <pallier>
                     <name>Antimatter Pepe 25</name>
@@ -241,8 +241,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Antimatter Pepe 50</name>
@@ -250,8 +250,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Antimatter Pepe 100</name>
@@ -259,8 +259,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
             </palliers>
         </product>
@@ -272,8 +272,8 @@ and open the template in the editor.
             <seuil>1</seuil>
             <idcible>0</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>0</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>All unlock 3</name>
@@ -281,8 +281,8 @@ and open the template in the editor.
             <seuil>3</seuil>
             <idcible>0</idcible>
             <ratio>3</ratio>
-            <typeratio></typeratio>
-            <unlocked>GAIN</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>All unlock 10</name>
@@ -290,8 +290,8 @@ and open the template in the editor.
             <seuil>10</seuil>
             <idcible>0</idcible>
             <ratio>5</ratio>
-            <typeratio>VITESSE</typeratio>
-            <unlocked></unlocked>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
@@ -301,8 +301,8 @@ and open the template in the editor.
                     <seuil>500</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Feelsgoodman</name>
@@ -310,8 +310,8 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>See ya later</name>
@@ -319,8 +319,8 @@ and open the template in the editor.
                     <seuil>10000</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Mr.Anderson</name>
@@ -328,8 +328,8 @@ and open the template in the editor.
                     <seuil>3000</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Gold digger</name>
@@ -337,8 +337,8 @@ and open the template in the editor.
                     <seuil>5000</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Old but gold</name>
@@ -346,8 +346,8 @@ and open the template in the editor.
                     <seuil>9000</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
     </upgrades>
     <angelupgrades>
@@ -357,8 +357,8 @@ and open the template in the editor.
                     <seuil>2016</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Take a shot for him...</name>
@@ -366,8 +366,8 @@ and open the template in the editor.
                     <seuil>5000</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>...He took one for you</name>
@@ -375,8 +375,8 @@ and open the template in the editor.
                     <seuil>10000</seuil>
                     <idcible>-1</idcible>
                     <ratio>1.997</ratio>
-                    <typeratio>GAIN</typeratio>
-                    <unlocked>0</unlocked>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
     </angelupgrades>
     <managers>
@@ -385,54 +385,54 @@ and open the template in the editor.
                     <logo>icones/manager/doge.jpg</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Dat boi</name>
                     <logo>icones/manager/dat_boi.jpg</logo>
                     <seuil>15000</seuil>
                     <idcible>2</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Risitas</name>
                     <logo>icones/manager/risitas.jpg</logo>
                     <seuil>100000</seuil>
                     <idcible>3</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Knuckles</name>
                     <logo>icones/manager/douknowdawae.jpg</logo>
                     <seuil>500000</seuil>
                     <idcible>4</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Wednesday Frog</name>
                     <logo>icones/manager/frog_wed.jpg</logo>
                     <seuil>1200000</seuil>
                     <idcible>5</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
                  <pallier>
                     <name>Dark Kermit</name>
                     <logo>icones/manager/dark_kermit.jpg</logo>
                     <seuil>10000000</seuil>
                     <idcible>6</idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked>0</unlocked>
+                    <ratio>1</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
                  </pallier>
     </managers>
 

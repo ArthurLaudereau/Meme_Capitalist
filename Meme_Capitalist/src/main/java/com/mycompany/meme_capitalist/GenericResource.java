@@ -6,6 +6,8 @@
 package com.mycompany.meme_capitalist;
 
 import com.google.gson.Gson;
+import generated.PallierType;
+import generated.ProductType;
 import generated.World;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -26,7 +28,7 @@ import javax.xml.bind.JAXBException;
  *
  * @author Risitas
  */
-@Path("")
+@Path("generic")
 public class GenericResource {
 
     @Context

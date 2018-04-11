@@ -39,7 +39,6 @@ public class Services {
         }
         return world;
     }
-
     ;
     
     private void saveWordlToXml(World world) throws FileNotFoundException, JAXBException {
